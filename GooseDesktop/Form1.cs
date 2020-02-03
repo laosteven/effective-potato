@@ -1,42 +1,22 @@
-using System;
+﻿using System;
 using System.ComponentModel;
 using System.Drawing;
 using System.Windows.Forms;
 
 namespace GooseDesktop
 {
-	public class Form1 : Form
+	// Token: 0x02000008 RID: 8
+	public partial class Form1 : Form
 	{
-		private IContainer components;
-
+		// Token: 0x06000039 RID: 57 RVA: 0x00002ACB File Offset: 0x00000CCB
 		public Form1()
 		{
 			this.InitializeComponent();
 		}
 
-		protected override void Dispose(bool disposing)
-		{
-			if (disposing && this.components != null)
-			{
-				this.components.Dispose();
-			}
-			base.Dispose(disposing);
-		}
-
+		// Token: 0x0600003A RID: 58 RVA: 0x00002AD9 File Offset: 0x00000CD9
 		private void Form1_Load(object sender, EventArgs e)
 		{
-		}
-
-		private void InitializeComponent()
-		{
-			base.SuspendLayout();
-			base.AutoScaleDimensions = new SizeF(8f, 16f);
-			base.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			base.ClientSize = new System.Drawing.Size(282, 253);
-			base.Name = "Form1";
-			this.Text = "Form1";
-			base.Load += new EventHandler(this.Form1_Load);
-			base.ResumeLayout(false);
 		}
 	}
 }
