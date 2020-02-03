@@ -32,7 +32,7 @@ namespace GooseDesktop
 			Time.TickTime();
 			if (Program.GetAsyncKeyState(Keys.Escape) != 0)
 			{
-				MainGame.curQuitAlpha += 0.00216666679f;
+				MainGame.curQuitAlpha += 0.0216666679f;
 			}
 			else
 			{
